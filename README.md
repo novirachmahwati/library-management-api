@@ -68,22 +68,22 @@ Explore the API endpoints using Swagger UI:
 You can view the documentation for this API using Swagger. It provides an interactive interface where you can explore endpoints, parameters, request/response schemas, and even test API calls directly from the documentation page.
 
 ## API Endpoints
-### Books
-- `GET /api/books` - Retrieve a list of all books
-- `GET /api/books/{id}` - Retrieve details of a specific book
-- `POST /api/books` - Create a new book
-- `PUT /api/books/{id}` - Update a book
-- `DELETE /api/books/{id}` - Delete a book
-
 ### Authors
-- `GET /api/authors` - Retrieve a list of all authors
-- `GET /api/authors/{id}` - Retrieve details of a specific author
-- `POST /api/authors` - Create a new author
-- `PUT /api/authors/{id}` - Update an author
-- `DELETE /api/authors/{id}` - Delete an author
+- `GET /authors` - Retrieve a list of all authors
+- `GET /authors/{id}` - Retrieve details of a specific author
+- `POST /authors` - Create a new author
+- `PUT /authors/{id}` - Update an author
+- `DELETE /authors/{id}` - Delete an author
+
+### Books
+- `GET /api/1.0/books` - Retrieve a list of all books
+- `GET /api/1.0/books/{id}` - Retrieve details of a specific book
+- `POST /api/1.0/books` - Create a new book
+- `PUT /api/1.0/books/{id}` - Update a book
+- `DELETE /api/1.0/books/{id}` - Delete a book
 
 ### Association
-- `GET /api/authors/{id}/books` - Retrieve books by a specific author
+- `GET /authors/{id}/books` - Retrieve books by a specific author
 
 ## Testing
 To run the tests, use the following command:
