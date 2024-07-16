@@ -76,11 +76,11 @@ You can view the documentation for this API using Swagger. It provides an intera
 - `DELETE /authors/{id}` - Delete an author
 
 ### Books
-- `GET /api/1.0/books` - Retrieve a list of all books
-- `GET /api/1.0/books/{id}` - Retrieve details of a specific book
-- `POST /api/1.0/books` - Create a new book
-- `PUT /api/1.0/books/{id}` - Update a book
-- `DELETE /api/1.0/books/{id}` - Delete a book
+- `GET /books` - Retrieve a list of all books
+- `GET /books/{id}` - Retrieve details of a specific book
+- `POST /books` - Create a new book
+- `PUT /books/{id}` - Update a book
+- `DELETE /books/{id}` - Delete a book
 
 ### Association
 - `GET /authors/{id}/books` - Retrieve books by a specific author
