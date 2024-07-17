@@ -51,6 +51,11 @@ This project implements a simple RESTful API for managing a library system, focu
     php artisan migrate
     ```
 
+7. Run generate swagger:
+    ```sh
+    php artisan l5-swagger:generate
+    ```
+
 ## Usage
 1. Start the Laravel development server:
     ```sh
