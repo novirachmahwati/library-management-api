@@ -19,7 +19,7 @@ This project implements a simple RESTful API for managing a library system, focu
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/library-management-api.git
+    git clone https://github.com/novirachmahwati/library-management-api.git
     ```
 2. Navigate to the project directory:
     ```sh
