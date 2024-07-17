@@ -61,9 +61,9 @@ This project implements a simple RESTful API for managing a library system, focu
     ```sh
     php artisan serve
     ```
-2. Open your web browser and navigate to:
+2. Access the API on:
     ```
-    http://localhost:8000
+    http://localhost:8000/api/1.0/{endpoint_name}
     ```
 
 ## API Documentation
